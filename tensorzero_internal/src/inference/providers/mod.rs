@@ -1,6 +1,7 @@
 pub mod anthropic;
 pub mod aws_bedrock;
 pub mod azure;
+pub mod cohere;
 #[cfg(test)]
 pub mod common;
 #[cfg(any(test, feature = "e2e_tests"))]

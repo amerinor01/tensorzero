@@ -3,6 +3,7 @@ mod aws_bedrock;
 mod azure;
 #[cfg(feature = "batch_tests")]
 mod batch;
+mod cohere;
 mod common;
 mod fireworks;
 mod gcp_vertex_anthropic;
